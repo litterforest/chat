@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8" >
-<title>Insert title here</title>
+<title>登录</title>
 </head>
 <body>
 	建立websocket连接
