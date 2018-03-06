@@ -7,9 +7,14 @@
 <title>登录</title>
 </head>
 <body>
-	建立websocket连接
+	<div>
+		<form action="/chat/LoginServlet" method="post" >
+			<p><input name="nickname" ></p>
+			<p><input type="submit" value="登录聊天室" ></p>
+		</form>
+	</div>
 </body>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	var websocket = new WebSocket("ws://localhost:8088/chat/chat");
-</script>
+</script> -->
 </html>

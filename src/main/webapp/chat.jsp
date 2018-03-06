@@ -7,6 +7,6 @@
 <title>聊天室</title>
 </head>
 <body>
-
+大家来聊天, ${nickname }
 </body>
 </html>
