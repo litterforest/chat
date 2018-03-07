@@ -14,7 +14,4 @@
 		</form>
 	</div>
 </body>
-<!-- <script type="text/javascript">
-	var websocket = new WebSocket("ws://localhost:8088/chat/chat");
-</script> -->
 </html>
