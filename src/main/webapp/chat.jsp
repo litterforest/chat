@@ -35,12 +35,14 @@
 		$("#message").append($("<li>" + event.data + "</li>"));
 		
 		// 来到窗口的最新位置
-		$("#chatWin").scrollTop($('#chatWin')[0].scrollHeight);
+		// 这里表示内容的总高度
+		var scrollHeight = $("#chatWin")[0].scrollHeight;
+		$("#chatWin").scrollTop(scrollHeight);
 		
 	}
 	
 	$("#send").click(function(){
-		var content = $("#content").val();
+		var content = $.trim($("#content").val());
 		if (content.length > 0){
 			
 			ws.send("${nickname}: " + content);
